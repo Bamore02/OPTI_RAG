@@ -2,7 +2,7 @@ import os
 import pinecone
 from pinecone import Pinecone, ServerlessSpec
 import streamlit as st
-p_key=st.secrets["pinecone_key"]
+p_key=st.secrets["p_key"]
 HF_AUTH_TOKEN=st.secrets["HF_AUTH_TOKEN"]
 pc = Pinecone(api_key=p_key)
 
